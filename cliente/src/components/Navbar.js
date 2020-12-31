@@ -43,7 +43,16 @@ export default function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/services'
+                  to='/AboutUs'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Sobre Nosotros
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/Educación'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -52,7 +61,7 @@ export default function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/products'
+                  to='/Blog'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
