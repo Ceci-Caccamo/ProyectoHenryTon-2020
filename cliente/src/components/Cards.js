@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 export default function Cards() {
     return(
         <div className='cards'>
-        <h1>Mira estos cursos!</h1>
+        <h1>Mira estos cursos educativos y material de aprendizaje!</h1>
         <div className='cards__container'>
           <div className='cards__wrapper'>
             <ul className='cards__items'>
@@ -17,7 +17,7 @@ export default function Cards() {
               />
               <CardItem
                 src='images/img-2.jpg'
-                text='Sabes que herramientas necesitas en caso de inundación?'
+                text='Aprende jugando que acciones tomar ante inundaciones'
                 label='Juegos'
                 path='/Educación'
               />
@@ -31,14 +31,14 @@ export default function Cards() {
               />
               <CardItem
                 src='images/img-4.jpg'
-                text='Por que el pequeño Timmy no debio agarrar los caramelos'
-                label='Infantil'
+                text='Preveni el incendio en tu hogar'
+                label='Video'
                 path='/Educación'
               />
               <CardItem
                 src='images/img-8.jpg'
-                text='Aprende a separar los residuos'
-                label='Curso'
+                text='Aprende a separar la basura con Betito!'
+                label='Video'
                 path='/Educación'
               />
             </ul>
