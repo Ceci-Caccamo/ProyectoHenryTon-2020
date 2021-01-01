@@ -29,11 +29,11 @@ export default function Footer() {
           <div className='footer-link-wrapper'>
             <div class='footer-link-items'>
               <h2>Sobre Nosotros</h2>
-              <Link to='/SobreNostros'>Como Funciona?</Link>
-              <Link to='/SobreNostros'>Testimonios</Link>
-              <Link to='/SobreNostros'>Carreras</Link>
-              <Link to='/SobreNostros'>Inversores</Link>
-              <Link to='/SobreNostros'>Términos de servicio</Link>
+              <Link to='/AboutUs'>Como Funciona?</Link>
+              <Link to='/AboutUs'>Testimonios</Link>
+              <Link to='/AboutUs'>Carreras</Link>
+              <Link to='/AboutUs'>Inversores</Link>
+              <Link to='/AboutUs'>Términos de servicio</Link>
             </div>
             <div class='footer-link-items'>
               <h2>Contactanos</h2>
