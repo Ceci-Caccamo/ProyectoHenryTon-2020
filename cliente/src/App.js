@@ -5,6 +5,10 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
 import AboutUs from './components/pages/AboutUs';
+import Education from './components/pages/Education';
+import Blog from './components/pages/Blog';
+import SignUp from './components/pages/SignUp';
+
 
 function App() {
   return (
@@ -14,6 +18,9 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/AboutUs' component={AboutUs} />
+          <Route path='/Education' component={Education} />
+          <Route path='/Blog' component={Blog} />
+          <Route path='/SignUp' component={SignUp} />
         </Switch>
         <Footer />
       </Router>

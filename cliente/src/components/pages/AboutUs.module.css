@@ -229,7 +229,7 @@ Variables
   }
   .product p {
     font-weight: bold;
-    text-transform: capitalize;
+    text-transform: none;
     line-height: 1.8;
   }
   .product span {
