@@ -1,10 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Cards from '../Cards';
+import Categories from '../Categories';
+import './Education.css';
 
 export default function Education() {
     return(
-        <div>
-            Educación
+        <div className="contenedor">
+            <div>
+                <Categories />
+            </div>
+            <div>
+                <Cards />
+            </div>
         </div>
     );
 }
