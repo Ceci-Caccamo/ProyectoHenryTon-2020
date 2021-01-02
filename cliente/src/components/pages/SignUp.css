@@ -8,14 +8,12 @@
     --headingFont:'Raleway', sans-serif;
     --textFont:  'Roboto', sans-serif;
   }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  } 
+ 
 
-  a {
+ /*  a {
     text-decoration: none;
     color: var(--gris2);
-  } */
+  } */ */
   
   /** BOTONES **/
   .btn {
@@ -55,24 +53,7 @@
     background-color: transparent;
   }
   
-  @media (min-width: 768px) {
-    .contenedor-app {
-        display: flex;
-        min-height: 100vh;
-    }
-  
-    aside {
-        background-color: var(--blanco);
-        flex: 0 0 300px;
-    }
-    .seccion-principal {
-        flex: 1;
-    }
-  
-  }
-  
-  
-  
+ 
   .sombra {
     -webkit-box-shadow: 0px 4px 10px -3px rgba(117,117,117,1);
     -moz-box-shadow: 0px 4px 10px -3px rgba(117,117,117,1);
