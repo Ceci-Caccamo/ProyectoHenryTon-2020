@@ -5,7 +5,7 @@ import Categories from './Categories';
 
 export default function BlogCard() {
     return(
-        <div className='cards'>
+        <div className='cardss'>
 
         <h1>Nuestro Blog</h1>
 
