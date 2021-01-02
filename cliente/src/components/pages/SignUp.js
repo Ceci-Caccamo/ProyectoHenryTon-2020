@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {Link} from 'react-router-dom'
 import './SignUp.css'
 
+
 const Login = () => {
   //state para iniciar sesion
   const [usuario, guardarUsuario] = useState({
@@ -27,7 +28,7 @@ const onSubmit=e=>{
 
   return (
     <div className="form-usuario">
-      <div className="contenedor-form sombra-dar">
+    <div className="contenedor-form sombra-dark">
         <h1>Iniciar Sesión</h1>
         <form
         onSubmit={onSubmit}

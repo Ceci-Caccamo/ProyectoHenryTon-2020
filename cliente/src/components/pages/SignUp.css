@@ -1,4 +1,4 @@
-
+ 
 :root {
     --blanco: #ffffff;
     --gris1: #edf2f6;
@@ -11,45 +11,11 @@
   *, *:before, *:after {
     box-sizing: inherit;
   } 
-  html {
-    box-sizing: border-box;
-    height: 100%;
-    font-size: 62.5%; 
-  }
-  body {
-    min-height: 100%;
-    background-color: var(--gris1);
-    font-size: 16px; 
-    font-size: 1.6rem;
-    font-family: var(--textFont);
-  }
-  
-  
-  h1, h2 {
-    font-family: var(--headingFont);
-    font-weight: 900;
-    margin: 0 0 4rem 0;
-    text-align: center;
-    color: var(--gris2);
-  }
-  h1 span {
-    font-weight: 400;
-  }
-  h1 {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 2.4rem;
-  }
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+
   a {
     text-decoration: none;
     color: var(--gris2);
-  }
+  } */
   
   /** BOTONES **/
   .btn {
@@ -106,55 +72,6 @@
   }
   
   
-  /* BARRA LATERAL */
-  aside  {
-    padding: 3rem;
-  }
-  
-  .formulario-nuevo-proyecto {
-    margin-top: 6rem;
-  }
-  .formulario-nuevo-proyecto .input-text {
-    border-bottom: 1px solid var(--gris2);
-    border-radius: 0;
-    background-color: var(--gris1);
-  }
-  .formulario-nuevo-proyecto .input-text::placeholder{
-    color: var(--gris2);
-  }
-  .proyectos {
-    margin-top: 10rem;
-  }
-  .listado-proyectos li {
-    margin-bottom: 2rem;
-  }
-  .listado-proyectos li a {
-    font-size: 1.4rem;
-    color: var(--gris2);
-    line-height: 1.5;
-    font-weight: 300;
-  }
-  .app-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--gris2);
-    padding: 4rem;
-  }
-  .nombre-usuario {
-    color: var(--blanco);
-    font-size: 2.2rem;
-    margin: 0;
-  }
-  .nombre-usuario span {
-    font-weight: 900;
-  }
-  .nav-principal a {
-    color: var(--blanco);
-    text-decoration: none;
-  }
-  .nav-principal a:first-of-type {
-    margin-right: 2rem;
-  }
   
   .sombra {
     -webkit-box-shadow: 0px 4px 10px -3px rgba(117,117,117,1);
@@ -171,20 +88,26 @@
   
   .form-usuario {
     /*   background-color: #242424; */
-      height: 50vh;
+      height: 00vh;
       min-height: 800px;
       display: flex;
       align-items: center;
       justify-content: center;
+     
   }
   
   .contenedor-form {
+      border: black;
       padding: 5rem 3rem;
       max-width: 500px;
       width: 95%;
       background-color: var(--blanco);
       border-radius: 1rem;
-  }
+     
+}
+.contenedor:hover {
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.27);
+}
   
   .campo-form {
       display: flex;
@@ -204,11 +127,11 @@
     border: 1px solid #e1e1e1;
     padding: 1rem;
     flex: 1;
-  }
+  } 
   
-  .enlace-cuenta {
+   .enlace-cuenta {
     margin-top: 2rem;
     display: block;
     opacity: .7;
-    
   }
+  
