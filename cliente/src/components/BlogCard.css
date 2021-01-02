@@ -1,0 +1,49 @@
+.cards {
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    margin-top: 2rem;
+    transition: .2s;
+}
+.card h2 {
+    cursor: pointer;
+}
+.card b {
+    font-size: 1.2rem;
+}
+.card span {
+    font-size: 1.2rem;
+    color: #808080;
+}
+.card .tags {
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.card p {
+    font-size: .9rem;
+    float: right;
+    margin-right: 10px;
+    color: #808080;
+}
+.card .tags:hover {
+    text-decoration: underline;
+}
+.card:hover {
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.27);
+}
+.card img {
+    max-width: 200px;
+    float: left;
+    padding: 5px;
+}
+
+.card h2 {
+    margin: 8px;
+    font-size: 1.8rem;
+}
