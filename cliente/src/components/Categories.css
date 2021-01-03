@@ -1,14 +1,15 @@
 .container {
-    width: 230px;
+    width: 185px;
     height: 500px;
     /* border: solid .1px rgb(31, 152, 244, 0.2); */
     /* background-color: rgb(190, 224, 250, 0.2); */
     float: left;
-    margin-left: -2.5rem;
     margin-top: 4rem;
     padding: 0;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     transition: 0.2s;
+    margin-left: 2rem;
+    margin-right: -1rem;
 }
 .container:hover {
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.27);
@@ -30,4 +31,10 @@ h2 {
     margin-left: 1.2rem;
     font-size: 2rem;
     /* color:  rgb(31, 152, 244); */
+}
+
+@media (max-width: 1465px) {
+    .container {
+        margin-left: -3rem;
+    }
 }
