@@ -8,8 +8,10 @@ import AboutUs from './components/pages/AboutUs';
 import Education from './components/pages/Education';
 import Blog from './components/pages/Blog';
 import SignUp from './components/pages/SignUp';
+import { CourseScreen } from './components/courses/CourseScreen';
 import Register from './components/Register';
 import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
           <Route path='/AboutUs' component={AboutUs} />
           <Route path='/Education' component={Education} />
           <Route path='/Blog' component={Blog} />
+          <Route exact path="/curso/:cursoId" component={ CourseScreen } /> 
           <Route path='/SignUp' component={SignUp} />
           <Route path='/Register' component={Register} />
         </Switch>
