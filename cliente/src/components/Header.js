@@ -15,7 +15,7 @@ export default function Header() {
             buttonStyle='btn--outline'
             buttonSize='btn--large'
           >
-            EMPEZA
+            EMPEZAR
           </Button>
           <Button
             className='btns'
