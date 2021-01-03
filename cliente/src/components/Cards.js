@@ -9,7 +9,7 @@ export default function Cards() {
 
         <h1>Estos son algunos de los cursos educativos y material de aprendizaje!</h1>
       
-         <Categories />
+        {/* <Categories /> */} 
 
         <div className='cards__container'>
           <div className='cards__wrapper'>
