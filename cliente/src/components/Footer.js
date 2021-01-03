@@ -48,7 +48,7 @@ export default function Footer() {
               <h2>Videos</h2>
               <Link to='/'>Enviar Video</Link>
               <Link to='/'>Escuelas</Link>
-              <Link to='/'>Entidades Gubernamentales</Link>
+              <Link to='/'>Entidades</Link>
               <Link to='/'>ONGs</Link>
             </div>
             <div class='footer-link-items'>
@@ -64,11 +64,11 @@ export default function Footer() {
           <div class='social-media-wrap'>
             <div class='footer-logo'>
               <Link to='/' className='social-logo'>
-                HenryTon
-                <i class='fab fa-typo3' />
+                EduTiva
+                <i class='fas fa-meteor' />
               </Link>
             </div>
-            <small class='website-rights'>HenryTon © 2020</small>
+            <small class='website-rights'>EduTiva © 2021</small>
             <div class='social-icons'>
               <Link
                 class='social-icon-link facebook'
