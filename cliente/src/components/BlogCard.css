@@ -7,44 +7,44 @@
     margin-bottom: 4rem;
 }
 
-.card {
+.cardBlog {
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     margin-top: 2rem;
     transition: .2s;
 }
-.card h2 {
+.cardBlog h2 {
     cursor: pointer;
 }
-.card b {
+.cardBlog b {
     font-size: 1.2rem;
 }
-.card span {
+.cardBlog span {
     font-size: 1.2rem;
     color: #808080;
 }
-.card .tags {
+.cardBlog .tags {
     cursor: pointer;
     margin-top: 1rem;
 }
-.card p {
+.cardBlog p {
     font-size: .9rem;
     float: right;
     margin-right: 10px;
     color: #808080;
 }
-.card .tags:hover {
+.cardBlog .tags:hover {
     text-decoration: underline;
 }
-.card:hover {
+.cardBlog:hover {
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.27);
 }
-.card img {
+.cardBlog img {
     max-width: 200px;
     float: left;
     padding: 5px;
 }
 
-.card h2 {
+.cardBlog h2 {
     margin: 8px;
     font-size: 1.8rem;
 }

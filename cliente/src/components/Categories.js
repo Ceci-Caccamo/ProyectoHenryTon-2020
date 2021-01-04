@@ -6,7 +6,7 @@ import './Categories.css';
 export default function Categories () {
     
     return (
-      <div className='container'>
+      <div className='container mr-3'>
           <h2>Categorías</h2>
           <div>
             <ul>

@@ -8,7 +8,7 @@ export const CourseCard = ({
 
 }) => {
     return (
-        <div class="card ms-3" style={{ maxWidth: 540 }} >
+        <div class="card m-3 p-2 ml-3" style={{ maxWidth: 540 }} >
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src={`./images/cursos/${id}.jpg`}  className="card-img" alt={name} />
