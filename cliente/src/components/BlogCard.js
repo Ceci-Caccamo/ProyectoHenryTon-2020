@@ -3,7 +3,7 @@ import './BlogCard.css';
 
 export default function BlogCard() {
     return(
-        <div className='cardss'>
+        <div className='cardss animate__animated animate__fadeIn'>
 
         <h1>Nuestro Blog</h1>
 

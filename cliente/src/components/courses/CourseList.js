@@ -4,7 +4,7 @@ import { CourseCard } from './CourseCard';
 
 export const CourseList = () => {
     return(
-        <div className="column" >
+        <div className="column animate__animated animate__fadeIn" >
             <h1>Nuestro Cursos</h1>
             <Categories />
         
