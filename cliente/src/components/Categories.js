@@ -1,6 +1,6 @@
 import React from 'react';
 import './Categories.css';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 
 export default function Categories () {
@@ -10,17 +10,16 @@ export default function Categories () {
           <h2>Categorías</h2>
           <div>
             <ul>
-                <li>Desastre natural</li>
-                <li>Desastre natural</li>
-                <li>Desastre natural</li>
-                <li>Desastre natural</li>
-                <li>Desastre natural</li>
-                <li>Desastre natural</li>
-                <li>Desastre natural</li>
-                <li>Desastre natural</li>
-                <li>Desastre natural</li>
-                <li>Desastre natural</li>
-                
+                <li>Cursos</li>
+                <li>Videos</li>
+                <li>Certificaciónes</li>
+                <li>Juegos</li>
+                <li>Guias</li>
+                <li>ONGs</li>
+                <li>Gubernamentales</li>
+                <li>Escuelas</li>
+                <li>Infantiles</li>
+                <li>Pedagógicos</li>
             </ul>
           </div>
       </div>
