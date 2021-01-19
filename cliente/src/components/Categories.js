@@ -17,7 +17,7 @@ export default function Categories () {
                 <li>Guias</li>
                 <li>ONGs</li>
                 <li>Gubernamentales</li>
-                <li>Escuelas</li>
+                <li>Privadas</li>
                 <li>Infantiles</li>
                 <li>Pedagógicos</li>
             </ul>

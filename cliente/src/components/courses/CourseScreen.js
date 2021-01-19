@@ -56,7 +56,7 @@ export const CourseScreen = ({ history }) => {
             <button 
             onClick={handleReturn} 
             className="btn btn-outline-info" >
-                Return
+                Volver
             </button>
         </div>
         
